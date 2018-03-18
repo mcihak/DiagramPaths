@@ -1,0 +1,94 @@
+[
+    { 
+        "start": {
+            "point": { "x": 10, "y": 20 },
+            "direction": "DIRECTION_EAST"
+        },
+        "end": {
+            "point": { "x": 50, "y": 30 },
+            "direction": "DIRECTION_WEST"
+        },      
+        "connection": [
+            { "x": 10, "y": 20 },
+            { "x": 30, "y": 20 },
+            { "x": 30, "y": 30 },
+            { "x": 50, "y": 30 }
+        ]
+    },
+    { 
+        "start": {
+            "point": { "x": 10, "y": 20 },
+            "direction": "DIRECTION_SOUTH"
+        },
+        "end": {
+            "point": { "x": 50, "y": 30 },
+            "direction": "DIRECTION_NORTH"
+        },      
+        "connection": [
+            { "x": 10, "y": 20 },
+            { "x": 10, "y": 25 },
+            { "x": 50, "y": 25 },
+            { "x": 50, "y": 30 }
+        ]
+    },
+    { 
+        "start": {
+            "point": { "x": 10, "y": 20 },
+            "direction": "DIRECTION_EAST"
+        },
+        "end": {
+            "point": { "x": 50, "y": 30 },
+            "direction": "DIRECTION_NORTH"
+        },      
+        "connection": [
+            { "x": 10, "y": 20 },
+            { "x": 50, "y": 20 },
+            { "x": 50, "y": 30 }
+        ]
+    },
+    { 
+        "start": {
+            "point": { "x": 10, "y": 30 },
+            "direction": "DIRECTION_EAST"
+        },
+        "end": {
+            "point": { "x": 50, "y": 20 },
+            "direction": "DIRECTION_SOUTH"
+        },      
+        "connection": [
+            { "x": 10, "y": 30 },
+            { "x": 50, "y": 30 },
+            { "x": 50, "y": 20 }
+        ]
+    },
+    { 
+        "start": {
+            "point": { "x": 10, "y": 20 },
+            "direction": "DIRECTION_NORTH"
+        },
+        "end": {
+            "point": { "x": 50, "y": 30 },
+            "direction": "DIRECTION_EAST"
+        },      
+        "connection": [
+            { "x": 10, "y": 20 },
+            { "x": 10, "y": 30 },
+            { "x": 50, "y": 30 }
+        ]
+    },
+    { 
+        "start": {
+            "point": { "x": 10, "y": 30 },
+            "direction": "DIRECTION_SOUTH"
+        },
+        "end": {
+            "point": { "x": 50, "y": 20 },
+            "direction": "DIRECTION_EAST"
+        },      
+        "connection": [
+            { "x": 10, "y": 30 },
+            { "x": 10, "y": 20 },
+            { "x": 50, "y": 20 }
+        ]
+    }
+]
