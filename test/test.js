@@ -1,12 +1,28 @@
 import expect from "expect";
 
 import Path from "../src/js/path/path";
-import testData from "./testData.json";
+import testMiddlePathData from "./testMiddlePathData.json";
+import testConnectionsData from "./testConnectionsData.json";
+import testCompletePathData from "./testCompletePathData.json";
 
 const path = new Path();
 
 export default function test() {
-  testData.map(n =>
-    expect(path.getPath({ start: n.start, end: n.end })).toEqual(n.connection)
+  testMiddlePathData.map(n =>
+    expect(path.getMiddlePath({ start: n.start, end: n.end })).toEqual(
+      n.connection
+    )
+  );
+
+  testConnectionsData.map(n =>
+    expect(
+      path.getConnections({ startRect: n.startRect, endRect: n.endRect })
+    ).toEqual({ startPath: n.startPath, endPath: n.endPath })
+  );
+
+  testCompletePathData.map(n =>
+    expect(
+      path.getPath({ startObject: n.startObject, endObject: n.endObject })
+    ).toEqual(n.path)
   );
 }

@@ -64,11 +64,11 @@
     { 
         "start": {
             "point": { "x": 10, "y": 20 },
-            "direction": "DIRECTION_NORTH"
+            "direction": "DIRECTION_SOUTH"
         },
         "end": {
             "point": { "x": 50, "y": 30 },
-            "direction": "DIRECTION_EAST"
+            "direction": "DIRECTION_WEST"
         },      
         "connection": [
             { "x": 10, "y": 20 },
@@ -79,11 +79,11 @@
     { 
         "start": {
             "point": { "x": 10, "y": 30 },
-            "direction": "DIRECTION_SOUTH"
+            "direction": "DIRECTION_NORTH"
         },
         "end": {
             "point": { "x": 50, "y": 20 },
-            "direction": "DIRECTION_EAST"
+            "direction": "DIRECTION_WEST"
         },      
         "connection": [
             { "x": 10, "y": 30 },

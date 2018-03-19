@@ -1,0 +1,73 @@
+[
+    {
+        "startRect": {
+            "vertexA": { "x": 10, "y": 20 },
+            "vertexB": { "x": 30, "y": 30 },
+            "connector": { "x": 10, "y": 25 },
+            "direction": "DIRECTION_WEST"
+        },
+        "endRect": {
+            "vertexA": { "x": 110, "y": 50 },
+            "vertexB": { "x": 130, "y": 60 },
+            "connector": { "x": 110, "y": 55 },
+            "direction": "DIRECTION_WEST"
+        },
+        "startPath": [
+            { "x": 10, "y": 25 },
+            { "x": 5, "y": 25 },
+            { "x": 5, "y": 35 }
+        ],
+        "endPath": [
+            { "x": 110, "y": 55 },
+            { "x": 105, "y": 55 }
+        ]
+    },
+    {
+        "startRect": {
+            "vertexA": { "x": 10, "y": 20 },
+            "vertexB": { "x": 30, "y": 50 },
+            "connector": { "x": 10, "y": 35 },
+            "direction": "DIRECTION_WEST"
+        },
+        "endRect": {
+            "vertexA": { "x": 110, "y": 30 },
+            "vertexB": { "x": 130, "y": 60 },
+            "connector": { "x": 110, "y": 45 },
+            "direction": "DIRECTION_WEST"
+        },
+        "startPath": [
+            { "x": 10, "y": 35 },
+            { "x": 5, "y": 35 },
+            { "x": 5, "y": 55 },
+            { "x": 35, "y": 55 }
+        ],
+        "endPath": [
+            { "x": 110, "y": 45 },
+            { "x": 105, "y": 45 }
+        ]
+    },
+    {
+        "startRect": {
+            "vertexA": { "x": 10, "y": 20 },
+            "vertexB": { "x": 30, "y": 50 },
+            "connector": { "x": 10, "y": 35 },
+            "direction": "DIRECTION_WEST"
+        },
+        "endRect": {
+            "vertexA": { "x": 110, "y": 30 },
+            "vertexB": { "x": 130, "y": 40 },
+            "connector": { "x": 110, "y": 35 },
+            "direction": "DIRECTION_WEST"
+        },
+        "startPath": [
+            { "x": 10, "y": 35 },
+            { "x": 5, "y": 35 },
+            { "x": 5, "y": 55 },
+            { "x": 35, "y": 55 }
+        ],
+        "endPath": [
+            { "x": 110, "y": 35 },
+            { "x": 105, "y": 35 }
+        ]
+    }
+]

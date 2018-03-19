@@ -1,15 +1,19 @@
 # DiagramPaths
 
-To start the application with default data use:
+To start the application use:
 
 ```
 npm run build
 npm run start
 ```
 
-To run the application with different data, create e.g. example.json input file in /data directory and run:
+To run the application in development mode:
 
 ```
-cross-env INPUT_FILE=example.json npm run build
+npm run watch
 npm run start
 ```
+
+TODO:
+
+1. Remove duplicity points in path (simply remove startPoint and endPoint from middlePath).
